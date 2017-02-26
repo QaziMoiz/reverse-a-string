@@ -1,0 +1,14 @@
+
+function reverseString(str) {
+ /* var a = str.split("");
+  var b = a.reverse(",");
+  var c = b.join("");*/
+  
+  var a = str.split("");
+  var a = a.reverse(",");
+  var a = a.join("");
+  
+  return a;
+}
+
+reverseString("what is up with you mofos");
